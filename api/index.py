@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS to allow requests from any origin
+CORS(app)  # Enable CORS to allow requests from any origin 
 
 # Load the student marks from the JSON file
 try:
